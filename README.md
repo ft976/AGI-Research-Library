@@ -1,11 +1,11 @@
-# AGI Research Library & Master Manufacturing Guide
+# Nexus AGI Research Hub & Master Manufacturing Guide
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 [![React](https://img.shields.io/badge/React-19-blue.svg)](https://react.dev)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue.svg)](https://www.typescriptlang.org/)
 
-Welcome to the **AGI Research Library**, a highly scalable, multi-faceted portal and archive designed to track the rapidly evolving landscape of Artificial General Intelligence (AGI). This application dynamically syncs with major pre-print servers and databases (such as ArXiv and Open Library) to compile an exhaustive repository of the most influential papers, philosophical treatises, books, and frameworks driving the modern intelligence revolution.
+Welcome to the **Nexus AGI Research Hub**, a highly scalable, multi-faceted portal and archive designed to track the rapidly evolving landscape of Artificial General Intelligence (AGI). This application dynamically syncs with major pre-print servers and databases (such as ArXiv and Open Library) to compile an exhaustive repository of the most influential papers, philosophical treatises, books, and frameworks driving the modern intelligence revolution.
 
 Beyond acting as a dynamic academic portal, this document serves as a **Deep Dive Master Guide** and **Scientific Manifesto** regarding the manufacturing of Artificial General Intelligence. It extensively details the current computational paradigms, theoretical frameworks, and algorithmic breakthroughs.
 

@@ -1,7 +1,7 @@
 import React, { useState, useMemo, useEffect } from 'react';
 import { FULL_LIBRARY } from './library';
 import { ItemType, LibraryItem } from './data';
-import { Book, FileText, Search, ExternalLink, Library, Globe, Database, BookOpen, ScrollText, Menu, X, Tag, MessageSquare, Clock, Filter, ChevronDown, Download, Sparkles, Loader2, Settings, Key, CheckCircle2, Command, Upload, DownloadCloud, RefreshCw } from 'lucide-react';
+import { Book, FileText, Search, ExternalLink, Library, Globe, Database, BookOpen, ScrollText, Menu, X, Tag, MessageSquare, Clock, Filter, ChevronDown, Download, Sparkles, Loader2, Settings, Key, CheckCircle2, Command, Upload, DownloadCloud, RefreshCw, Brain } from 'lucide-react';
 import { useRef } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { clsx } from 'clsx';
@@ -256,12 +256,15 @@ export default function App() {
           <button className="md:hidden p-1 text-slate-500 hover:text-slate-800" onClick={() => setIsSidebarOpen(!isSidebarOpen)}>
             {isSidebarOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
           </button>
-          <div className="w-8 h-8 bg-blue-600 rounded flex items-center justify-center text-white font-bold hidden sm:flex">
-            <Library className="w-4 h-4" />
+          <div className="w-8 h-8 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-lg flex items-center justify-center text-white font-bold hidden sm:flex shadow-md">
+            <Brain className="w-4 h-4" />
           </div>
-          <h1 className="text-base md:text-lg font-bold tracking-tight text-slate-800 truncate">
-            AGI Library <span className="text-[10px] md:text-xs font-normal text-slate-400 ml-1 md:ml-2">v2.4.0</span>
-          </h1>
+          <div className="flex flex-col justify-center">
+            <h1 className="text-base md:text-lg font-black tracking-tight text-slate-900 truncate leading-none mt-0.5">
+              Nexus AGI
+            </h1>
+            <span className="text-[9px] font-bold text-slate-400 uppercase tracking-widest leading-none mt-1">Research Hub</span>
+          </div>
         </div>
         <div className="hidden md:flex items-center gap-4 flex-1 max-w-xl px-12">
           <div className="relative w-full">
@@ -426,8 +429,8 @@ export default function App() {
                </div>
             </div>
 
-            <div className="p-3 bg-slate-50 rounded-lg border border-slate-200">
-              <p className="text-[11px] text-slate-500 italic leading-relaxed uppercase tracking-tighter">
+            <div className="p-3 bg-indigo-50/50 rounded-lg border border-indigo-100">
+              <p className="text-[11px] text-indigo-900/60 font-medium leading-relaxed uppercase tracking-tighter">
                 A comprehensive curation of pre-AGI classics, safety research, and frontiers of intelligence.
               </p>
             </div>
